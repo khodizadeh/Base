@@ -22,6 +22,10 @@ function revEid($s){
 	return $t2."-".$t1;
 }
 
+function (){
+return 0;
+}
+
 function encode($n){
 $val= mb_encode_numericentity("$n",array(128,9999,0,0xffff), "UTF-8");
 return $val;
